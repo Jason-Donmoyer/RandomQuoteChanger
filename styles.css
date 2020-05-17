@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container {
+  background-color: tan;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+}
+
+.content {
+  height: 90%;
+  width: 90%;
+  background-color: lightgrey;
+  display: flex;
+  align-self: center;
+}
+
+#change-quote-btn {
+  background-color: lightgreen;
+  color: white;
+  height: 75px;
+  width: 200px;
+  font-size: 1.5em;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  cursor: pointer;
+}
+
+#change-quote-btn:hover {
+  background-color: green;
+  opacity: 80%;
+}
